@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Northline Studio</title>
+    <meta
+      name="description"
+      content="Contact Northline Studio to discuss campaign production, content rollout, and enterprise brand delivery."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="contact-page">
+    <header class="topbar">
+      <a href="index.html" class="brand">Northline Studio</a>
+      <nav class="topbar__nav">
+        <a href="index.html#proof">Proof</a>
+        <a href="index.html#services">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a href="contact.html" class="button button--nav">Request a plan</a>
+    </header>
+
+    <main class="contact-main">
+      <section class="contact-hero">
+        <div class="contact-hero__copy">
+          <p class="eyebrow eyebrow--dark">Contact Northline</p>
+          <h1 class="title_hero">Tell us about the campaign and we will map the production plan.</h1>
+          <p class="hero__lede hero__lede--dark">
+            Share the timeline, channels, and team setup. We will come back with a tailored
+            approach that feels ready to take into an internal review.
+          </p>
+        </div>
+
+        <form class="form-card">
+          <label>
+            Full name
+            <input type="text" name="name" placeholder="Jane Andersson" />
+          </label>
+          <label>
+            Work email
+            <input type="email" name="email" placeholder="jane@brand.com" />
+          </label>
+          <label>
+            Company
+            <input type="text" name="company" placeholder="Volvo Cars" />
+          </label>
+          <label>
+            Project type
+            <select name="project_type">
+              <option value="">Select project type</option>
+              <option>Campaign production</option>
+              <option>Content rollout</option>
+              <option>Post-production</option>
+              <option>Enterprise retainer</option>
+            </select>
+          </label>
+          <label>
+            Project details
+            <textarea
+              name="details"
+              rows="6"
+              placeholder="We need a production partner for a product launch across film, stills, paid social, and retail assets."
+            ></textarea>
+          </label>
+          <button type="submit" class="button button_primary">Request production plan</button>
+        </form>
+      </section>
+    </main>
+
+    <script
+      src="https://møle.com/embed.js"
+      data-token="cs-d4bee82b-1b47-4c18-8f8e-a85fb64a5400"
+    ></script>
+  </body>
+</html>
